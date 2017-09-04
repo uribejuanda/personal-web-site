@@ -1,7 +1,0 @@
-<div class="photo-row" (window:resize)="onResize($event)" *ngFor="let row of rows">
-    <div *ngFor="let col of cols"
-         class='box'
-         [ngStyle]="{'width': size + 'px'}">
-        <app-photo class="content"></app-photo>
-    </div>
-</div>

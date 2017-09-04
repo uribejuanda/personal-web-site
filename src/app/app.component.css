@@ -11,6 +11,7 @@ aside {
     /*flex-direction: column;*/
     align-content: flex-start;
     flex-wrap: wrap;
+    width: 40%;
 }
 
 /*.container {*/
